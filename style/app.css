@@ -1,6 +1,16 @@
 /* Font */
-
-
+@font-face {
+  font-family: "Vazirmatn Bold";
+  src: url(../fonts/Vazirmatn-Bold.ttf);
+}
+@font-face {
+  font-family: "Vazirmatn Medium";
+  src: url(../fonts/Vazirmatn-Medium.ttf);
+}
+@font-face {
+  font-family: "Vazirmatn Regular";
+  src: url(../fonts/Vazirmatn-Regular.ttf);
+}
 /* Document
    ========================================================================== */
 
@@ -349,3 +359,253 @@
     display: none;
   }
   /* start project */
+  html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+  font-family: "Vazirmatn Medium";
+  background-color: #001A36;
+  color: #fff;
+}
+body::-webkit-scrollbar {
+  width: 0;
+}
+.container {
+  max-width: 80rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+/* header items */
+.header {
+  background-image: url(../images/Property\ 1=W3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 860px;
+  /* z-index: -1; */
+
+}
+.navbar {
+  width: 100%;
+  background: transparent;
+  z-index: 1;
+  backdrop-filter: blur(15px);
+}
+.header-items {
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;  
+  justify-content: space-between;
+}
+.logo-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.test{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+}
+.icon__text {
+  margin: 0;
+}
+.paragraph__title {
+  margin: 0;
+  letter-spacing: 0.1rem;
+  text-align: right;
+  color: #FF5733;
+}
+.input__search {
+  background-color: #FF5733;
+  outline: none;
+  border: none;
+
+  padding: 0.5rem 0.7rem;
+  border-radius: 100%;
+}
+.menu-header__Keeper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+.menu-header__Keeper :nth-child(1) {
+  color: #FF5733;
+}
+.keeper__items {
+  list-style-type: none;
+  cursor: pointer;
+}
+.link-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button__login {
+  color: #FF5733;
+  border: 1px solid #FF5733;
+  margin-left:0.5rem;
+  border-radius: 16px;
+}
+.button__login:hover {
+  background-color: #FF5733;
+  color: #fff;
+}
+.button__signin {
+  border-radius: 16px;
+  background-color: #FF5733;
+  color: #fff;
+  
+}
+.button__signin:hover {
+  background-color: transparent;
+  border: 1px solid #FF5733;
+  color: #FF5733;
+}
+.button--link {
+  text-decoration: none;
+  padding: 0.3rem 1.5rem;
+  transition: all 350ms ease;
+}
+/* header main */
+.header-main {
+  margin-top: 110px;
+}
+.tetettet {
+  display: flex;
+  gap: 36px;
+}
+.header-main__right {
+  width: 22rem;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+.main-right__written {
+
+}
+.written__title {
+
+}
+.written__text {
+
+}
+.main-right__about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-right__score {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.i2 {
+  color: #FFCC00;
+  font-size: 25px;
+  font-weight: bold;
+}
+.score__image {
+
+}
+.score__text {
+  color: #979797;
+}
+.main-right__date {
+  gap: 0.4rem;
+  align-items: center;
+  display: flex;
+}
+.date__image {
+
+}
+.date__text {
+
+}
+.main-right__genre {
+  display: flex;
+  justify-content: space-between;
+}
+.right-genre__text {
+
+}
+.genre__title {
+  text-align: center;
+}
+.genre__text {
+  color: #979797;
+}
+.right-genre__genres {
+
+}
+.genres__title {
+  text-align: center;
+}
+.genres__text {
+  color: #979797;
+}
+.main-right__devices {
+  display: flex;
+  gap: 8px;
+
+}
+.right-devices__text {
+  width: 121px;
+  border: 1px solid #979797;
+  padding: 0.6rem 0;
+  text-align: center;
+  color: #979797;
+  border-radius: 12px;
+}
+.main-right__links {
+  display: flex;
+  gap: 12px;
+}
+.link__buy {
+  background-color: #FF5733;
+  color: #fff;
+}
+.link__review {
+  color: #FF5733;
+  border: 1px solid #FF5733;
+
+}
+.links {
+  padding:0.7rem 2.5rem;
+  border-radius: 16px;
+  text-decoration: none;
+}
+.header-main__left {
+  align-self: flex-end;
+}
+.selecte {
+}
+.i3 {
+  color: #FF5733;
+}
+.main-left__header {
+
+}
+.main-left__item {
+  display: flex;
+  gap: 16px;
+}
+.left-item__image {
+
+}
+.item__image {
+
+}
